@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.7rem;
+}
+h1 {
+  background: #5db0ff;
+  font-family: 'Raleway', sans serif;
+  margin: 0;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  font-size: 2.6rem;
+  padding: 7px;
+  box-shadow: 0 0 10px rgba(0,0,0,.7)
+}
+#ab {
+  margin: -20px 0;
+}
+.container {
+  position: relative;
+  transition: .5s;
+  margin-top: 15px;
+}
+.container img {
+  position: relative;
+  max-width: 1200px;
+  transition: .5s;
+}
+.container p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  opacity: 0;
+  transition: .5s;
+}
+.container:hover img {
+  filter: blur(2px)
+}
+.container:hover p {
+  opacity: 1;
+}
+main img {
+  margin-top: 60px;
+}
+.head {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.para {
+  margin: 30px 10px;
+}
+.bottom {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg,#24006b, #f42f8c);
+}
+.bottom .img {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.bottom img {
+  margin-top: 30px;
+}
+.bottom label {
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+table {
+  color: white;
+  margin: 50px 0;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: .6rem;
+}
+
+footer {
+  background:linear-gradient(45deg, #e91e63, #ffeb3b);
+  color: white;
+}
+footer div {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+input[type=email],[type=text] {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+}
+input[type=submit] {
+  background: #ff2e5c;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  height: 40px;
+  width: 100px;
+  margin: 15px 0;
+}
+input[type=submit]:hover {
+  background: white;
+  color: #ff2e5c;
+}
+.copy {
+  background: black;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 5px 0;
+  color: white;
+}
+footer a {
+  color: white;
+}
